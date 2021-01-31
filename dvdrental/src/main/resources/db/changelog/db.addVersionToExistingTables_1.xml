@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+         
+		<changeSet author="fastCode, Inc" id="category100">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="category" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="category">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="f_user101">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="f_user" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="f_user">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="jwt_entity102">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="jwt_entity" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="jwt_entity">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="address103">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="address" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="address">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="film_actor104">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="film_actor" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="film_actor">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="userrole105">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="userrole" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="userrole">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="customer106">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="customer" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="customer">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="film107">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="film" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="film">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="staff108">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="staff" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="staff">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="store109">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="store" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="store">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="rolepermission110">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="rolepermission" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="rolepermission">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="userpermission111">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="userpermission" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="userpermission">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="city112">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="city" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="city">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="userpreference113">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="userpreference" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="userpreference">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="role114">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="role" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="role">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="tokenverification115">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="tokenverification" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="tokenverification">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="payment116">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="payment" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="payment">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="language117">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="language" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="language">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="rental118">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="rental" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="rental">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="actor119">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="actor" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="actor">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="permission120">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="permission" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="permission">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="country121">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="country" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="country">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="inventory122">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="inventory" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="inventory">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+	<changeSet author="fastCode, Inc" id="film_category123">
+	    <preConditions onFail="MARK_RAN">
+        	<tableExists tableName="film_category" schemaName="public"/>
+        </preConditions>
+	    <addColumn tableName="film_category">
+	    	<column name="versiono" type="BIGINT" defaultValue="0">
+	      		<constraints nullable="false"/>
+			</column>
+	   	</addColumn>
+	</changeSet>
+         
+</databaseChangeLog>
